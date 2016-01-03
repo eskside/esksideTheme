@@ -1,0 +1,234 @@
+// Copyright (c) 2015 http://esksidedesign.co.uk. All rights reserved.
+
+.CodeMirror, .CodeMirror-scroll {
+    background-color: #1c2026;
+    color: #dcddd3;
+}
+
+.cm-keyword {
+  color: #F92672;
+}
+
+.cm-tag, .cm-bracket {
+  color: #09beae;
+}
+
+.cm-atom, .cm-number, .cm-link {
+  color: #E6DB74;
+}
+
+.cm-operator, .cm-variable {
+  color: #F8F8F2;
+}
+
+.cm-m-css.cm-operator, .cm-m-css.cm-variable, .cm-m-css.cm-variable-3 {
+  color: #c4b94e;
+}
+
+.cm-meta, .cm-qualifier, .cm-builtin, .cm-attribute {
+  color: #09b5a6;
+}
+
+.cm-m-xml.cm-attribute {
+  color: #0d9186;
+}
+
+.cm-string, .cm-string-2 {
+  color: #E6DB74;
+}
+
+.cm-m-xml.cm-string {
+  color: #E6DB74;
+}
+
+.cm-property {
+  color: #90ccd7;
+}
+
+.cm-variable-2 {
+  color: #ff6767;
+}
+
+.cm-comment {
+  color: #536b80;
+}
+
+.cm-def {
+  color: #FD971F;
+}
+
+.cm-matchhighlight {
+  background: #333;
+}
+
+.cm-error {
+  background: #F92672;
+  color: #F8F8F2 !important;
+}
+
+.CodeMirror-gutters {
+    margin-right: 16px;
+    background: #171a1d;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background, .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt, .inline-widget .CodeMirror-gutter-elt {
+  background: #3C3F41;
+}
+
+.CodeMirror-linenumber {
+  color: #485167;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+  color: #F8F8F2;
+}
+
+.CodeMirror-cursor {
+  border-left: 1px solid #F8F8F2 !important;
+}
+
+.CodeMirror-selected {
+  background: #3C3F41;
+  opacity: .23;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+  background: #E6DB74;
+  color: #242424;
+}
+
+.CodeMirror-matchingbracket {
+  background: transparent !important;
+  color: #1dff00 !important;
+  text-shadow: 0 0 10px #1dff00;
+  font-weight: 700;
+}
+
+.CodeMirror-nonmatchingbracket {
+  background: #F92672 !important;
+  color: #F8F8F2 !important;
+}
+
+.CodeMirror-matchingtag {
+  background: rgba(255,255,255,0.15);
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+  border-left: none !important;
+  border-bottom: 1px solid #F8F8F2;
+}
+
+.CodeMirror-searching {
+  background: #E6DB74;
+}
+
+.searching-current-match {
+  background: #FD971F;
+}
+
+.CodeMirror-foldgutter-open:after {
+  content: "⌵";
+  font-size: 1.3em;
+  color: #485167;
+}
+
+.CodeMirror-foldgutter-folded:after {
+  content: "+";
+  font-size: 1.3em;
+  font-weight: 700;
+  background: transparent !important;
+  color: #F92672 !important;
+  text-shadow: 0 0 10px #F92672;
+}
+
+.CodeMirror-foldgutter-folded {
+  padding-top: 2px;
+}
+
+.CodeMirror-foldgutter-open {
+  padding-top: 1px;
+}
+
+.CodeMirror-foldmarker {
+  display: inline-block;
+  border-radius: 0.75em;
+  padding: 0 2px;
+  border: 0;
+  font-size: .75em;
+  color: #F92672 !important;
+  text-shadow: 0 0 10px #F92672;
+  background: rgba(255, 255, 255, (1 / 6));
+}
+
+.CodeMirror-foldmarker:after {
+  content: '\2022\2022\2022';
+  position: relative;
+  top: 1px;
+}
+
+.ico-cssColorPreview {
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  margin-bottom: 2px;
+}
+
+.brackets-git-gutter-modified, .brackets-git-gutter-removed, .brackets-git-gutter-added {
+  width: 3px;
+}
+
+.open-files-container {
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    box-flex: 0;
+    padding: 0px;
+    min-height: 300px
+}
+
+
+
+/**
+* Brackets UI Theme - code below needs https://github.com/notasz/brackets-uitheming 
+* package installed to work.
+* ---------------------------------------------------------------------------------
+*/
+.working-set-header, .sidebar-selection, #project-files-header, #main-toolbar, .dark #status-bar, .dark #status-indicators, .dark .dropdown-menu {
+    background: #171a1d;
+}
+
+.sidebar, .working-set-view, #project-files-container, #project-files-header .btn-alt-quiet {
+    background: #1c2026;
+}
+
+#working-set-list-container>div:last-child ul {
+    padding: 14px 0 0 0;
+}
+
+.working-set-header-title {
+    padding: 0;
+}
+
+.working-set-header>span {
+    background: none;
+}
+
+#project-files-header {
+    padding-bottom: 2px;
+}
+
+#project-files-container {
+    padding: 14px;
+}
+
+.sidebar-selection {
+    border: 0;
+}
+
+.dark #status-bar, .dark #status-indicators>div:not(.spinner), .dark #status-indicators #status-language, .dark .dropdown-menu {
+    border-color: #485167 !important;
+    border-radius: 0;
+}
+
+.dark .dropdown-menu .divider {
+    background: #485167;
+}
